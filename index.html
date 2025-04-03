@@ -41,34 +41,87 @@
       </div>
     </div>
   </nav>
+
+  <!-- Profile Section -->
   <section id="profile">
     <div class="section_pic-container">
-      <img src="./assets/varun_profilepic.png" alt="Varun Sukhavasi profile picture">
+      <img src="./assets/varun_profilepic.png" alt="Varun Sukhavasi profile picture" />
     </div>
     <div class="section_text">
       <p class="section_text_p1">Hello, I'm</p>
       <h1 class="title">Varun Sukhavasi</h1>
       <p class="section_text_p2">a Data Science Major at the University of Michigan.</p>
       <div class="btn-container">
-        <button class="btn btn-color-2"onclick="window.open('./assets/resume-example.pdf')"
-        >Download CV</button>
-
-        <button class="btn btn-color-1"onclick="location.href='./#contact'"
-        >Contact Info</button>
+        <button class="btn btn-color-2" onclick="window.open('./assets/resume-example.pdf')">Download CV</button>
+        <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
       </div>
-    
 
       <div id="socials-container">
-        <img src = "./assets/linkedin.png" alt="LinkedIn Profile" 
-        class = "icon" onclick="location.href='https://www.linkedin.com/in/varun-sukhavasi/'"
-        />
-        <img src = "./assets/github.png" alt="My Github Profile" 
-        class = "icon" onclick="location.href='https://github.com/VarunSUK'"
-        />
+        <img src="./assets/linkedin.png" alt="LinkedIn Profile" class="icon"
+             onclick="window.open('https://www.linkedin.com/in/varun-sukhavasi/', '_blank')" />
+        <img src="./assets/github.png" alt="My Github Profile" class="icon"
+             onclick="window.open('https://github.com/VarunSUK', '_blank')" />
       </div>
     </div>
   </section>
 
+  <!-- About Section -->
+  <section id="about"> 
+    <p class="section_text_p1">Get To Know More</p>
+    <h1 class="title">About Me</h1>
+  
+    <div class="section-container">
+      <!-- Left side: Picture -->
+      <div class="section_pic-container"> 
+        <img src="./assets/about-pic.png" alt="Profile Picture" class="about-pic" />
+      </div>
+  
+      <!-- Right side: Details and description -->
+      <div class="about-details-container"> 
+        <div class="about-containers">
+          <div class="details-container">
+            <img src="./assets/experience.png" alt="Experience icon" class="icon" />
+            <h3>Experience</h3>
+            <p>2+ Years <br /> Frontend Development</p>
+          </div>
+  
+          <div class="details-container">
+            <img src="./assets/education.png" alt="Education icon" class="icon" />
+            <h3>Education</h3>
+            <p>B.S Bachelors Degree<br /> Data Science Major</p>
+          </div>
+        </div>
+  
+        <div class="text-container">
+          <p>
+            I am a Data Science major at the University of Michigan with a passion for leveraging data to solve real-world problems. 
+            I have a strong foundation in programming languages such as Python, R, and SQL, and I am proficient in data visualization tools like Tableau and Power BI. 
+            I enjoy working on projects that involve machine learning and statistical analysis. 
+            In my free time, I love to explore new technologies and contribute to open-source projects.
+          </p>
+        </div>
+      </div>
+    </div>
+    <img src="./assets/arrow.png"
+    alt="Arrow icon"
+    class = "icon arrow"
+    onclick="location.href='./#experience'"
+    />
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience"> 
+    <p class="section_text_p1">Explore My</p>
+    <h1 class="title">Experience</h1>
+    <div class="experince-details-container"> 
+      <div> class="about-containers"</div>
+    </div>
+
+  </section>
   <script src="script.js"></script>
-</body>
+  </body>
 </html>
+
+  
+
+  
